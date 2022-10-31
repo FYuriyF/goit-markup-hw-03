@@ -45,7 +45,7 @@ p {
   margin: 0;
 }
 
-.list  {
+.list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -78,7 +78,7 @@ img {
 
 /* ----------Нвігаціяя сайту---------*/
 
-.page-header{
+.page-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
@@ -93,21 +93,20 @@ img {
   margin-left: auto;
 }
 
-.contacts-item{
+.contacts-item {
   margin-right: 50px;
 }
-.contacts-item:last-child{
+.contacts-item:last-child {
   margin-left: 0;
 }
 .sitenav {
   display: flex;
   align-items: center;
 }
-.sitenav-item{
+.sitenav-item {
   margin-right: 50px;
 }
-.sitenav-item:last-child
-{
+.sitenav-item:last-child {
   margin-right: 0;
 }
 
@@ -115,7 +114,7 @@ img {
   color: var(--accent-color);
 }
 .logo {
-  margin-right:93px;
+  margin-right: 93px;
 
   text-decoration: none;
   font-family: "Raleway";
@@ -125,10 +124,10 @@ img {
   color: var(--primary-black-color);
 }
 
-.header-link{
-display: flex;
-padding-top: 32px;
-padding-bottom: 32px;
+.header-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link {
@@ -171,10 +170,10 @@ padding-bottom: 32px;
   background-color: var(--tertiary-bg-colo);
 }
 
-.hero-container{
+.hero-container {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
 
 .hero-title {
@@ -206,11 +205,11 @@ padding-bottom: 32px;
   display: flex;
 }
 
-.benefits-item{
+.benefits-item {
   width: 270px;
   margin-right: 30px;
 }
-.benefits-item:last-child{
+.benefits-item:last-child {
   margin-right: 0;
 }
 .benefits-title {
@@ -227,22 +226,22 @@ padding-bottom: 32px;
 }
 
 /*------------- Сapabilities -------------*/
-.capabilities-container{
+.capabilities-container {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
-.capabilities-list{
+.capabilities-list {
   display: flex;
   gap: 30px;
 }
-.capabilities-section{
+.capabilities-section {
   padding-top: 0;
 }
 
 /*--------------- Our team ---------------*/
 
-.container-team{
+.container-team {
   display: flex;
   flex-direction: column;
 }
@@ -282,7 +281,7 @@ padding-bottom: 32px;
 
 /*--------------- Підвал ---------------*/
 
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
 }
@@ -319,14 +318,14 @@ padding-bottom: 32px;
 .communication .contacts:focus {
   color: var(--accent-color);
 }
-.communication-list{
+.communication-list {
   display: flex;
   flex-direction: column;
 }
-.communication-item{
+.communication-item {
   margin-bottom: 9px;
 }
-.communication-item:last-child{
+.communication-item:last-child {
   margin-bottom: 60px;
 }
 
@@ -391,27 +390,25 @@ padding-bottom: 32px;
 
 /*--------------- Портфоліо--------------- */
 
-.btn-list{
+.btn-list {
   display: flex;
   justify-content: center;
   padding-top: 0px;
   padding-bottom: 50px;
 }
 
-.btn-item{
+.btn-item {
   margin-right: 8px;
 }
 
-.projects-list{
+.projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right:-30px;
-  margin-bottom:-30px;
-
-
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 .projects-item {
-  flex-basis: calc((100%-30*2)/9);
+  flex-basis: calc((100%-30 * 2) / 9);
   margin-right: 30px;
   margin-bottom: 30px;
 }
